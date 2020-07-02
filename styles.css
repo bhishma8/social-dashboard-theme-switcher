@@ -1,0 +1,188 @@
+
+
+.body
+{
+    background-color:#ffff;
+    
+}
+.top-bg
+{
+    background-color: hsl(225, 100%, 98%);
+    
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 200px;
+    position: relative;
+    
+   
+}
+h2
+{
+    font-weight: 700;
+    color:hsl(230, 17%, 14%);
+    font-family: 'Inter', sans-serif;
+}
+p
+{
+    color: hsl(228, 12%, 44%);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+    
+    
+
+.switch
+{
+    position: relative;
+    left: 900px;
+    bottom:70px; 
+    width:100px;
+    font-weight: 600;
+    
+    
+}
+.row
+{
+    padding-left: 200px;
+    padding-right: 200px;
+   
+}
+.card
+{
+    background-color: hsl(227, 47%, 96%);
+    position: relative;
+    z-index: +1;
+    bottom: 50px;
+    
+    padding: 10px 20px 0px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 240px;
+}
+h1{
+    color: hsl(230, 17%, 14%);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.trends
+{   padding-top:20px ;
+    color:hsl(163, 72%, 41%) ;
+    font-size: 12px;
+    font-weight: 600;
+}
+.facebook
+{
+    border-left: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-top-color: hsl(208, 92%, 53%);
+    border-top-width:5px ;
+    border-radius: 3px;
+}
+.twitter
+{
+    border-left: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-top-color:hsl(203, 89%, 53%);
+    border-top-width:5px ;
+    border-radius: 3px;
+    
+}
+
+.instagram
+{
+    border-left: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-image: linear-gradient(to right,hsl(37, 97%, 70%),hsl(329, 70%, 58%))5;
+    border-top-width:5px ;
+    border-radius: 3px;
+}
+.youtube
+{
+    border-left: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-top-color: hsl(348, 97%, 39%);
+    border-top-width:5px ;
+    border-radius: 3px;
+}
+
+.chutiyap
+{
+    margin-left:200px; 
+  margin-bottom: 50px; 
+  padding-bottom:20px;
+  color: hsl(228, 12%, 44%);
+}
+    
+
+.card:hover
+{
+    background-color:hsl(227, 10%, 80%);
+}
+
+.updown
+{
+    background-color: hsl(227, 47%, 96%);
+    height: 140px;
+    width: 257.3px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+.trend-green
+{
+    color:hsl(163, 72%, 41%) ;
+    font-size: 12px;
+    font-weight: 600;
+}
+.trend-red
+{
+    color: hsl(356, 69%, 56%);
+    font-size: 12px;
+    font-weight: 600;
+}
+.updown:hover
+{
+    background-color:hsl(227, 10%, 80%);
+}
+
+
+.darkmode--activated .top-bg
+{
+    background-color: hsl(232, 19%, 16%);
+}
+.darkmode--activated h1{
+    color: #ffff;
+}
+
+.darkmode--activated .card
+{
+    background-color: hsl(228, 28%, 20%);
+}
+.darkmode--activated .updown
+{
+    background-color:  hsl(228, 28%, 20%);
+}
+.darkmode--activated h2
+{
+    color: #ffff;
+}
+.darkmode--activated .chutiyap
+{
+    color:black;
+}
+.darkmode--activated .switch
+{
+    color:#ffff;
+}
+.darkmode--activated .card:hover
+{
+    background-color: hsl(230, 22%, 30%)
+}
+.darkmode--activated .updown:hover
+{
+    background-color: hsl(230, 22%, 30%)
+}
