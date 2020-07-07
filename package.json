@@ -13,7 +13,7 @@
     "url": "git+https://github.com/bhishma8/social-dashboard-theme-switcher.git"
   },
   "engines": {
-    "node": "11.4.0"
+    "node": "12.18.2"
   },
   "author": "Adittya Dey",
   "homepage": "http://bhishma8.github.io/social-dashboard-theme-switcher",
